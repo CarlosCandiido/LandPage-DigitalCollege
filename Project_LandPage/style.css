@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+header {
+    padding: 20px;
+}
+
+header nav .cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav .cabecalho a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+header nav .cabecalho a:hover {
+    background-color: #C61066;
+    color: white;
+}
+
+.informations {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.informations h1 {
+    font-weight: 200;
+    font-size: 40px;
+}
+
+.informations .ptop {
+    font-size: 25px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.informations .pbottom {
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 15px;
+}
+
+.informations .agendar {
+    background-color: #C61066;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.about .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.about .title h1 {
+    font-weight: ;
+    font-size: 25px;
+}
+
+.about .module {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin: 0 20px;
+    padding: 10px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.about ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
