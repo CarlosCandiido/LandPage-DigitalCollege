@@ -61,6 +61,8 @@ main {
 }
 
 main .sec-left {
+    display: flex;
+    flex-direction: column;
     width: 578px;
     margin-right: 56px;
 }
@@ -95,9 +97,38 @@ main .sec-left .icons-section .box-icons #icon-main {
     margin-right: 12px;
 }
 
-#coffe {
-    width: 476px;
+main .sec-left .knowourproduct{
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #EBC136;
+    background-color: #EBC136;
+    width: 300px;
+    padding: 5px;
+    border-radius: 30px;
+    margin-top: 30px;
 }
+
+
+main .sec-left .knowourproduct:hover{
+    padding: 6px;
+    width: 310px;
+    background-color: #ebc136f2;
+}
+
+main .sec-left .knowourproduct a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+
+.Coffe-list {
+    display: flex;
+    flex-direction: column;
+    padding: 160px;
 
 .Coffe-list .our-coffe {
     font-size: 32px;
@@ -105,10 +136,7 @@ main .sec-left .icons-section .box-icons #icon-main {
     font-weight: 800;
 }
 
-.Coffe-list {
-    display: flex;
-    flex-direction: column;
-    padding: 160px;
+
 }
 .Coffe-list .list{
     margin-top: 54px;
@@ -134,9 +162,15 @@ main .sec-left .icons-section .box-icons #icon-main {
     padding-bottom: 20px;
 }
 
+
 .Coffe-list .list .item .foto {
     position: absolute;
     top: -20px;
+}
+
+.Coffe-list .list .item:hover .foto {
+    animation: bounceIn 1s;
+    animation-iteration-count: infinite;
 }
 
 .Coffe-list .list .item .type-coffe{
