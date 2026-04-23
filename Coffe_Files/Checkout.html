@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Checkout.css">
+</head>
+
+<body>
+    <header class="flex justify-center gap-[842px] py-8">
+        <img src="/Logo.svg" alt="logo" class="logo h-[40px]" id="logo">
+        <div class="box-loc flex items-center">
+
+            <div
+                class="loc flex bg-[#EBE5F9] px-2.5 py-2 text-nowrap gap-1 rounded-[6px] mr-3 text-[14px] font-normal text-[#4b2995]">
+                <img src="/Vector (1).svg" alt="">
+                <span class="font-medium font-['Baloo_2']">Fortaleza, CE</span>
+            </div>
+
+            <div class="box-carrinho bg-[#F1E9C9] p-2 rounded-b-md">
+                <img src="/Vector.svg" alt="" id="carrinho" class="h-[22px]">
+            </div>
+        </div>
+    </header>
+
+    <main class="px-[120px] py-10 flex">
+        <div>
+            
+        </div>
+        <h1 class="mb-3.5 font-(family-name:--font-baloo) font-bold ">Complete seu pedido</h1>
+        <Section class="right gap-3 flex flex-col shadow-lg w-[640px]">
+            <section class="right-top p-10 bg-[#f3f2f2] w-[640px] ">
+                <div class="adress flex items-start mb-8">
+                    <img src="/Coffe-list/Location.svg" alt="location" class=" mr-5">
+                    <div class="text-location">
+                        <h1>Endereço de Entrega</h1>
+                        <h2>Informe o endereço onde deseja receber seu pedido</h2>
+                    </div>
+                </div>
+
+                <form action="" class="flex flex-col gap-4">
+                    <input type="text" placeholder="CEP" class="bg-[#Ededed] p-3 w-[200px] rounded-sm h-[42px]">
+                    <input type="text" placeholder="RUA" class="bg-[#Ededed] p-3 flex-auto h-[42px]">
+                    <div class="flex gap-3">
+                        <input type="text" placeholder="Número" class="bg-[#Ededed] p-3 w-[200px] h-[42px]">
+                        <input type="text" placeholder="Complemento" class="bg-[#Ededed] p-3 h-[42px] flex-auto">
+                    </div>
+                    <div class="flex gap-3">
+                        <input type="text" placeholder="Bairro" class="bg-[#Ededed] p-3 w-[200px] h-[42px]">
+                        <input type="text" placeholder="Cidade" class="bg-[#Ededed] p-3 w-[276px] h-[42px]">
+                        <input type="text" placeholder="UF" class="bg-[#Ededed] p-3 w-[60px] h-[42px]">
+                    </div>
+                </form>
+            </section>
+
+            <section class="rightbottom p-10 bg-[#f3f2f2] w-[640px] gap-8 flex flex-col">
+                <div class="adress flex items-start">
+                    <img src="/Coffe-list/Payment.svg" alt="location" class=" mr-5">
+                    <div class="text-location">
+                        <h1>Pagamento</h1>
+                        <h2>O pagamento é feito na entrega. Escolha a forma que deseja pagar</h2>
+                    </div>
+                </div>
+
+                <div class="flex gap-3">
+                    <div class="flex bg-[#e6e5e5] justify-items-center items-center gap-3 w-[178px] h-[58px] pl-3">
+                        <img src="/Coffe-list/Credit_Card.svg" alt="">
+                        <h1>Cartão de Crédito</h1>
+                    </div>
+
+                    <div class="flex bg-[#e6e5e5] justify-items-center items-center gap-3 w-[178px] h-[58px] pl-3">
+                        <img src="/Coffe-list/Bank.svg" alt="">
+                        <h1>Cartão de Débito</h1>
+                    </div>
+
+                    <div class="flex bg-[#e6e5e5] justify-items-center items-center gap-3 w-[178px] h-[58px] pl-3">
+                        <img src="/Coffe-list/Cash.svg" alt="">
+                        <h1>Dinheiro</h1>
+                    </div>
+                </div>
+            </section>
+        </Section>
+
+
+            <h1 class="mb-3.5 font-(family-name:--font-baloo) font-bold">Cafés selecionados</h1>
+
+        <section class="left ">
+        </section>
+    </main>
+</body>
+
+</html>
