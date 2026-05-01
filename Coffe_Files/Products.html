@@ -14,31 +14,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
 <body>
-    <header class="flex justify-center gap-[842px] py-8">
-        <img src="/Logo.svg" alt="logo" class="logo h-[40px]" id="logo">
+    <header class="flex justify-between px-5 md:px-10 lg:px-30 py-8">
+        <img src="/Logo.svg" alt="logo" class="logo h-10" id="logo">
         <div class="box-loc flex items-center">
 
-            <div
-                class="loc flex bg-[#EBE5F9] px-2.5 py-2 text-nowrap gap-1 rounded-[6px] mr-3 text-[14px] font-normal text-[#4b2995]">
+            <div class="loc flex bg-[#EBE5F9] max-[640px]:hidden px-2.5 py-2 text-nowrap gap-1 rounded-[6px] mr-3 text-[14px] font-normal text-[#4b2995]">
                 <img src="/Vector (1).svg" alt="">
                 <span class="font-medium font-['Baloo_2']">Fortaleza, CE</span>
             </div>
 
-            <div class="box-carrinho bg-[#F1E9C9] p-2 rounded-b-md">
+            <div class="box-carrinho bg-[#F1E9C9] p-2 rounded-b-md max-[640px]:hidden">
                 <img src="/Vector.svg" alt="" id="carrinho" class="h-[22px]">
+            </div>
+
+            <div class="sm:hidden">
+            <i class="fa-solid fa-bars text-2xl text-[#8047f8]"></i>
+
             </div>
         </div>
     </header>
 
-    <main>
+    <main class="px-5 md:px-10 lg:px-30 py-8">
 
-        <section class="Coffe-list flex flex-col p-[160px]">
+        <section class="Coffe-list flex flex-col">
             <h1 class="our-coffe text-[32px] font-extrabold font-['Baloo_2']">Nossos cafés</h1>
-            <div class="list mt-[54px] grid grid-cols-4 gap-8">
+            <div class="list mt-[54px]  grid min-[1px]:grid-cols-1 min-[836px]:grid-cols-2 min-[1100px]:grid-cols-3 2xl:grid-cols-4 gap-8 justify-items-center ">
 
                 <div
                     class="item flex flex-col items-center h-[330px] w-[256px] bg-[#f3f2f2] rounded-bl-[36px] rounded-tr-[36px] rounded-br-md rounded-tl-md px-5 relative pt-[120px] pb-5">

@@ -11,6 +11,9 @@ body {
     width: 100%;
     font-family: 'Roboto';
     background-color: #FAFAFA;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 
@@ -97,7 +100,7 @@ main .sec-left .icons-section .box-icons #icon-main {
     margin-right: 12px;
 }
 
-main .sec-left .knowourproduct{
+main .sec-left .knowourproduct {
     align-self: center;
     display: flex;
     align-items: center;
@@ -111,24 +114,25 @@ main .sec-left .knowourproduct{
 }
 
 
-main .sec-left .knowourproduct:hover{
+main .sec-left .knowourproduct:hover {
     padding: 6px;
     width: 310px;
     background-color: #ebc136f2;
 }
 
-main .sec-left .knowourproduct a{
+main .sec-left .knowourproduct a {
     text-decoration: none;
     color: white;
     font-size: 18px;
     font-weight: 700;
-    
+
 }
 
 .Coffe-list {
     display: flex;
     flex-direction: column;
     padding: 160px;
+}
 
 .Coffe-list .our-coffe {
     font-size: 32px;
@@ -137,8 +141,7 @@ main .sec-left .knowourproduct a{
 }
 
 
-}
-.Coffe-list .list{
+.Coffe-list .list {
     margin-top: 54px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -173,7 +176,7 @@ main .sec-left .knowourproduct a{
     animation-iteration-count: infinite;
 }
 
-.Coffe-list .list .item .type-coffe{
+.Coffe-list .list .item .type-coffe {
     display: flex;
     justify-content: center;
     gap: 4px;
@@ -255,3 +258,29 @@ main .sec-left .knowourproduct a{
     align-items: center;
     justify-content: center;
 }
+
+@media (width <=1300px) {
+    header {
+        gap: 600px;
+    }
+    
+    main {
+        display: grid;
+    }
+}
+
+@media (width <=1000px) {
+    header {
+        gap: 450px;
+    }
+
+    .Coffe-list {
+        display: flex;
+    }
+
+    .Coffe-list .list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
